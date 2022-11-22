@@ -1,0 +1,20 @@
+[package]
+org = "milindap"
+name = "PatientAPI"
+version = "0.1.0"
+distribution = "2201.1.1"
+
+[build-options]
+observabilityIncluded = true
+
+[[dependency]]
+org = "wso2"
+name = "healthcare.fhir.r4"
+version = "0.1.0"
+repository="local"
+
+[[dependency]]
+org="wso2"
+name="healthcare.base"
+version="0.1.0"
+repository="local"
